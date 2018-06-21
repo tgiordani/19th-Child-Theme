@@ -1,0 +1,54 @@
+/*
+Theme Name:     Divi_Child_19th
+Description:    Child theme adding title generation for store functionality
+Author:         19thadmin
+Template:       Divi
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+.fdm-section-header, .fdm-section-header h3, .fdm-section-header p, .fdm-item-panel, .fdm-item-panel p {
+    margin: 0;
+    margin-bottom: 1em;
+	text-align: center;
+}
+
+/* Smartphones (landscape) ----------- */
+@media (max-width: 980px) {
+.twoX2 .et_pb_column{
+max-width: 50% !important;
+}
+.twoX2 .et_pb_column.et_pb_column_1_3:nth-of-type(3){
+margin: 0 25%;
+}
+}
+@media (max-width: 479px){
+.et_pb_section .et_pb_row.twoX2 div.et_pb_column.et_pb_column_1_4 {
+    width: 47.25% !important;
+}
+
+}
+/* Smartphones (landscape) ----------- */
+@media (max-width: 980px) {
+.twoX2 .et_pb_column{
+max-width: 50% !important;
+}
+.twoX2 .et_pb_column.et_pb_column_1_3:nth-of-type(3){
+margin: 0 25%;
+}
+}
+@media (max-width: 479px){
+.et_pb_section .et_pb_row.twoX2 div.et_pb_column.et_pb_column_1_4 {
+    width: 47.25% !important;
+}
+
+}
+
+
+
+.blur .et_parallax_bg {
+	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);
+}
